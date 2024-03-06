@@ -12,6 +12,9 @@ tailwind.config = {
 			fontFamily: {
 				vietnam: "var(--be-vietnam)",
 			},
+			fontSize: {
+				xs: "0.75rem",
+			},
 		},
 		screens: {
 			"2xl": { max: "1535px" },
@@ -28,6 +31,8 @@ tailwind.config = {
 
 			sm: { max: "639px" },
 			// => @media (max-width: 639px) { ... }
+			xs: { max: "425px" },
+			// => @media (max-width: 425px) { ... }
 		},
 	},
 };
