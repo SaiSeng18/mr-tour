@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>MR TOUR</title>
+
+		<link rel="stylesheet" href="/style.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="/tailwind.config.js"></script>
+		<script src="//unpkg.com/alpinejs" defer></script>
+	</head>
+	<body>
+		<main class="w-full text-clifford bg-black-custom min-h-screen flex flex-col">
+			<!-- Header -->
+			<header class="px-10 pt-10 flex justify-between items-center xl:p-5">
+				<div class="flex items-center gap-5">
+					<div class="w-[35px] h-[35px] bg-gray-100 sm:hidden"></div>
+					<a class="flex items-center gap-2">
+						<img src="" alt="Logo" class="w-[35px] h-[35px]" />
+						<h1>Mr.Tour</h1>
+					</a>
+				</div>
+
+				<div class="flex items-center gap-20 xl:gap-10">
+					<nav class="lg:hidden">
+						<ul class="flex gap-5 items-center">
+							<li><a href="">Home</a></li>
+							<li><a href="">About</a></li>
+							<li><a href="">Destination</a></li>
+							<li><a href="">Tour</a></li>
+							<li><a href="">Blog</a></li>
+						</ul>
+					</nav>
+
+					<div class="flex gap-5 md:hidden">
+						<div class="w-[35px] h-[35px] bg-gray-100"></div>
+						<div class="w-[35px] h-[35px] bg-gray-100"></div>
+					</div>
+
+					<div class="flex items-center gap-5">
+						<div
+							class="rounded-lg bg-primary h-[50px] p-1.5 flex gap-1.5 items-center md:hidden">
+							<div class="h-full aspect-square bg-gray-100 rounded-lg"></div>
+							<div class="h-full aspect-square bg-black-custom rounded-lg"></div>
+						</div>
+
+						<div class="flex items-center gap-2">
+							<div
+								class="h-[50px] w-[50px] bg-gray-100 rounded-full overflow-hidden"></div>
+							<div class="w-[25px] h-[25px] bg-gray-100"></div>
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<!-- Section -->
+			<section class="flex flex-col justify-between items-center">
+				<div class="w-full p-40 flex flex-col gap-40 items-center">
+					<h1 class="text-8xl text-center">
+						Discover
+						<span class="font-bold"
+							>the <br />
+							best lovely places!</span
+						>
+					</h1>
+
+					<div class="grid grid-cols-4 w-full max-w-[1400px] justify-items-center">
+						<div class="flex gap-5 items-center">
+							<div class="h-[75px] aspect-square rounded-xl bg-white-custom"></div>
+							<div class="flex flex-col">
+								<p class="text-5xl">725+</p>
+								<p>Happy Customer</p>
+							</div>
+						</div>
+
+						<div class="flex gap-5 items-center">
+							<div class="h-[75px] aspect-square rounded-xl bg-white-custom"></div>
+							<div class="flex flex-col">
+								<p class="text-5xl">29</p>
+								<p>Awards Gained</p>
+							</div>
+						</div>
+
+						<div class="flex gap-5 items-center">
+							<div class="h-[75px] aspect-square rounded-xl bg-white-custom"></div>
+							<div class="flex flex-col">
+								<p class="text-5xl">12</p>
+								<p>Years Experience</p>
+							</div>
+						</div>
+
+						<div class="flex gap-5 items-center">
+							<div class="w-1 h-[100px] bg-white-custom rounded-full"></div>
+							<p class="max-w-[250px]">
+								Plan and book your perfect trip with expert advice, travel tips,
+								destination information and inspiration from us.
+							</p>
+						</div>
+					</div>
+				</div>
+
+				<!-- Bottom Section -->
+				<div class="p-2 grid grid-cols-4 w-full">
+					<div class="h-[400px] w-full bg-color-3 rounded-l-[2.5rem]"></div>
+					<div class="h-[400px] w-full bg-primary"></div>
+					<div class="h-[400px] w-full bg-color-1"></div>
+					<div class="h-[400px] w-full bg-color-2 rounded-r-[2.5rem]"></div>
+				</div>
+			</section>
+		</main>
+	</body>
+</html>
