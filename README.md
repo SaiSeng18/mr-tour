@@ -8,4 +8,4 @@ This is a personal showcase website, designed to highlight my skills, projects, 
 - **Iconify**: This comprehensive icon system is used to add visually appealing and informative icons throughout the website.
 - **Alpine.js**: This minimal JavaScript framework is used for adding interactivity to the website, such as animations, dropdowns, and other dynamic features.
 
-![Website Screenshot](./screenshot.png)
+![Website Screenshot](https://github.com/SaiSeng18/mr-tour/blob/main/assets/screenshot.png?raw=true)
